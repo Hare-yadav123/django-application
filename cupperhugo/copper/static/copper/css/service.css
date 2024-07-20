@@ -1,0 +1,206 @@
+
+/*---------------header----------- */
+.team{
+    text-align: center;
+    /* margin-top: 10%; */   
+}
+
+.team h3{
+    font-size: 50px
+
+}
+.team a{
+    text-decoration: none;
+    color: black;
+}
+.mid-head{
+    margin-top: 30px;
+}
+.mid-head h4{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+.mid-head p{
+    font-style: oblique;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* ----------button----------- */
+
+/* ----------------image---------- */
+.photo-section{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    /* background-color: white; */
+   
+}
+.photo{
+    border: 1px;
+}
+.pt1{
+    max-width: 35%;
+    padding: 0 0 -15px;
+    flex: 0 0 35%;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.pt1 .photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 1px;
+}
+.pt1 p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: lighter;
+}
+.pt2{
+    max-width: 35%;
+    padding: 0 0 -15px;
+    flex: 0 0 35%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pt2 .photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%; 
+}
+
+.pt2 .photo img:hover{
+    background-color: red;
+}
+
+.pt2 p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: lighter;
+}
+
+.pt3{
+    max-width: 35%;
+    padding: 0 0 -15px;
+    flex: 0 0 35%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pt3 .photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+} 
+
+.pt3 p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: lighter;
+}
+
+/*------------------- footer------------------- */
+
+.futer{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    word-spacing: normal;
+    /* margin: 10px 10px; */
+    cursor: pointer;
+}
+.address{
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 5px;
+}
+.address p{
+    margin-top:10px;
+    text-align: center;
+    font-size: 35px;
+}
+.address a input{
+    margin-left: 45%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    background-color: #ff006a;
+    cursor: pointer;
+}
+.address a input:hover{
+    background-color:red;
+}
+
+.copper{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+
+}
+.copper h3{
+    margin-left: 5px;
+}
+.copper p{
+    margin-left: 5px;
+}
+.link{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+  
+.scl{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+}
+.scl a{
+    text-decoration: none;
+    color: black;
+}
+.scl a:hover{
+    text-decoration: underline;
+}
+.subc{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+    cursor: pointer;
+}
+
+
+.subc input{
+    margin-bottom: 0;
+    padding: 20px 50px;
+    text-align: center;
+}
+    
+.subc a i{
+   border: 1px solid red;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   padding: 7px 20px;
+   border-radius: 3px;
+   background-color: red;
+   color: white;
+}

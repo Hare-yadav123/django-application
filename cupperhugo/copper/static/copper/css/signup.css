@@ -1,0 +1,52 @@
+.signform{
+    margin-left: 20%;
+    margin-right: 10%;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.signform h3{
+    font-size: 50px;
+    text-align: center;
+}
+.signform a{
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+   margin-left: 45%;
+}
+form{
+    text-align: center;
+}
+h2{
+    text-align: 45%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form-control {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #c0baba;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.form-control:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px 0 #4CAF50;
+}
+.btn{
+    margin: 10px 20px;
+    padding: 15px 25px;
+    background: rgba(255, 0, 43, 0.849);
+    border: 1px;
+    border-radius: 5px ;
+    color: white;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgb(255, 0, 0);
+}

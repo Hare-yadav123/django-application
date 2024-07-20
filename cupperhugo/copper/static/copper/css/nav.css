@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.navpage {
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 0%;
+    color: black;
+    word-spacing: 5px;
+}
+.navberlist{
+    list-style: none;
+    display: flex;
+    margin: 10px 20px;
+    padding:0;
+    word-spacing: 5px;
+}
+
+.nav-item {
+    margin-left: 30px;
+    display: flex;
+}
+
+.nav-link{
+    margin-top: 15px;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.nav-item a{
+    padding: 20px 5px;
+    text-align: center;
+    display: block;
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.log{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+}
+
+.log .nav-item {
+    margin: 0 10px;
+}
+
+.log{
+  display: flex;
+  float: right;
+  list-style: none;
+  margin-left: 4%;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.sign{
+    padding: 10px;
+    display: block;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    text-align: center;
+    border-bottom: 2px;
+}
+
+.sign li{
+  border: 1px solid red;
+  padding:10px 10px;
+  border-radius: 5px;
+}
+.sign li:hover{
+  background-color: red;
+  color: white;
+}
+.signup{
+    list-style: none;
+    color:black;
+    text-decoration: none;
+}
+.signup:hover{
+    background-color: red;
+}
+/* ---------logo-------------------- */
+.logo-image{
+    width: 20px;
+    height:20px;
+    border-radius:100%;
+ }
+.logo-image a {
+   border-radius: 20px;
+   padding-right: 10px;
+}
+
+.logo-image a img{
+    border-radius: 20px;
+   
+}
+
+/* ------------------dropdown----------------- */
+
+.dropdown{
+  position:relative;
+  cursor: pointer;
+  
+
+}
+.dropbtn{
+  margin-top: 30px;
+  font-size:large;
+  margin-left: 50px;
+  border: none;
+}
+.dropbtn:hover{
+  color: red;
+}
+.dropdown-content{
+  text-align: left;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.dropdown-content .content {
+  position: relative;
+  display: none;
+}
+
+.dropdown-content .content a{
+  text-decoration: none;
+  text-align: left;
+  cursor: pointer;
+
+}
+.dropdown-content .content a:hover{
+  background-color: white;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 320) {
+  .navpage .navber .navberlist {
+      display: none;
+  }
+
+  .navbar .navberlist.show {
+      display: block;
+  }
+
+  .navbar .toggle-button {
+      display: block;
+      float: right;
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 10px 15px;
+      font-size: 17px;
+  }
+
+}

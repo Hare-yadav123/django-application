@@ -1,0 +1,87 @@
+{% extends 'copper/base.html'  %}
+{% load static %}
+{% block content %}
+
+{% block title %}
+    <title>contact</title>
+{% endblock title %}
+
+<div class="contact" style=" border-radius: 5%; margin-left:10px  ; margin:5% 10% ;">
+    <h3>Contact Us</h3>
+    <a href="/home">Home</a>  / <span style="color: red;">Contact Us</span>
+</div>
+
+<div class="disc" style="margin-top: 10%;">
+    <h4>Contact us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ex voluptas nostrum accusamus? Omnis ullam dolorem iure, harum consequuntur, quam obcaecati distinctio, ratione praesentium facere mollitia aliquam. Ut, laudantium accusantium.</p>
+</div>
+
+<div class="con-row">
+    <div class="head"  style="background-color: rgba(255, 255, 255, 0.856); border-radius: 10px;">
+        <h3 style="text-align: center;">contect us</h3>
+        <div class="ct-form">
+            <div class="cnt-form">
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <input style="margin-left: 30%; width: 100px;;" type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="ct-detail" style="background-color: rgba(255, 255, 255, 0.795); border-radius: 10px;">
+        <h3>our contact information</h3>
+        <div class="info">
+            <ul>
+                <li>hareyadav2546@gmail.com</li>
+                <li>6588992103</li>
+                <li>Gt-No:45 Wagholi Pune Maharastra </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="address" >
+    <address>
+        <p>Join 75,000+ Growing Business That <br> <span>Use Copper To Their Brand</span></p><br> <br> <br>
+        <a href=""><input type="submit" value="Get start with us >"></a>
+    </address>
+</div>
+<hr>
+
+
+
+    <div class="futer">
+        <div class="copper">
+            <h3>cupper</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, vero!</p>
+        </div>
+
+        <div class="link">
+            <h3>sociallink</h3>
+            <a href=""><i class="fa fa-facebook-square" style="color: blue;">facebook</i></a><br>
+            <a href=""><i class="fa fa-instagram"  style="color:rgba(red, green, blue, alpha);"></i></a>instagram<br>
+            <a href=""><i class="fa fa-youtube-play" style="color: #ff0000;"></i>Youtube</a><br>
+            <a href=""><i class="fa fa-whatsapp" style="color:green;"></i></a>whatsapp<br>
+        </div>
+
+        <div class="scl">
+            <h3>Quick-link</h3>
+            <a href="">fpq</a><br>
+            <a href="">Term&condition</a><br>
+            <a href="">Privacy policy</a><br>
+        </div>
+
+        <div class="subc">
+            <h3>Let's Subscribe youe mail</h3>
+            <input type="email" name="" id="" placeholder="write your mail">
+            <a href=""><i class=" fa fa-long-arrow-right" ></i></a>
+           
+        </div>
+
+    </div>
+
+{% endblock content %}

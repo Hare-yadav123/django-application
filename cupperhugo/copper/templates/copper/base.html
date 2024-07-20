@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}
+        <title> copper</title>
+    {% endblock title %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'copper/css/nav.css' %}">
+    <link rel="stylesheet" href="{% static 'copper/css/hom.css' %}">
+    <link rel="stylesheet" href="{% static 'copper/css/about.css' %}">
+    <link rel="stylesheet" href="{% static 'copper/css/service.css' %}">
+    <link rel="stylesheet" href="{% static 'copper/css/team.css' %}">
+    <link rel="stylesheet" href="{% static 'copper/css/blog.css' %}">
+    <link rel="stylesheet" href="{% static 'copper/css/contact.css' %}">
+    <link rel="stylesheet" href="{% static 'copper/css/signup.css' %}">
+    <link rel="stylesheet" href="{% static 'copper/css/login.css' %}">  
+</head>
+<body>
+    <div>
+        {% include 'copper/navigation.html' %}
+    </div>
+
+    <div class="block">
+        <div class="row">
+            <div class="col">
+                {% block mes %}
+
+                {% endblock mes %}
+            </div>
+        </div>
+
+        <div class="semi-block">
+            {% block side %}
+
+            {% endblock side %}
+
+            {% block content %}
+
+            {% endblock content %}
+        </div>
+    </div>
+
+    <script src="{%  static 'copper/js/javas.js' %}"></script>
+    <!-- <script src="{%  static 'copper/js/nav.js' %}"></script> -->
+</body>
+</html>

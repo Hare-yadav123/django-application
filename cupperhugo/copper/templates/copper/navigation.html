@@ -1,0 +1,62 @@
+{% load static %}
+<nav class="navpage">
+
+    <div class="navbar"> 
+        <ul class="navberlist">
+
+            <div class="logo-image">
+                <a href="https://statichunt.com/"> <img src="{% static 'copper/images/static2.jpeg' %}" style="width: 80px; height: 80px;"    alt="">  </a>
+            </div>
+
+            <li class="nav-item" style="margin-right:0px;">
+                <a href="/" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="/about/" class="nav-link">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="/service/" class="nav-link">Services</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="/team/" class="nav-link">Team</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="/blog/" class="nav-link">Blog</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="/contact/" class="nav-link">Contect</a>
+            </li>
+
+                <div class="dropdown">
+                   <button id="button"  class="dropbtn">Pages<i class="fa fa-caret-down"></i></button>
+                   <div id="content" class="dropdown-content" style="background-color: white;text-align:center;">
+                        <li class="content"><a href="/career/" style="color:blue; text-decoration: none;" >Career</a></li>
+                        <li class="content"><a href="#" style="color:blue; text-decoration: none;">Changelog</a></li>
+                        <li class="content"><a href="#" style="color:blue ;text-decoration: none;">Faq</a></li>
+                        <li class="content"><a href="#" style="color:blue ;text-decoration: none;">Pricing</a></li>
+                        <li class="content"><a href="#" style="color:blue ;text-decoration: none;">Pricing2</a></li>
+                        <li class="content"><a href="#" style="color:blue ;text-decoration: none;">Testemonial</a></li>
+                   </div>
+                </div>
+        
+            <div    class="log">
+                <div class="sign" id="hoverefect">
+                    <li>
+                        <a href="/signup/" class="signup">Sign-Up</a> 
+                    </li>
+                </div>
+    
+                <li class="nav-item">
+                    <a href="/login/" class="nav-link">Log-In <i class="fa fa-arrow-right"></i> </a>
+                </li>
+            </div>
+
+        </ul>
+
+    </div>
+</nav>
