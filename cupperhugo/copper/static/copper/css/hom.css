@@ -175,7 +175,7 @@ marquee {
     margin: auto;
   }
   
-  .central-circle {
+.central-circle {
     position: absolute;
     top: 70%;
     left: 50%;
@@ -212,7 +212,7 @@ marquee {
   .circle .sm-circle:nth-child(8) { top: 50%; left: 0%; transform: translate(-50%, -50%); }
   .circle .sm-circle:nth-child(9) { top: 18%; left: 18%; transform: translate(-50%, -50%); }
   .circle .sm-circle:nth-child(10) { top: 0%; left: 50%; transform: translate(-50%, -50%); }
-  
+
    /* --------section4------------------- */
 
 .grouth{
@@ -596,7 +596,7 @@ marquee {
    border: 1px solid red;
    margin-top: 30px;
    margin-bottom: 30px;
-   padding: 7px 20px;
+   padding: 7px 10px;
    border-radius: 3px;
    background-color: red;
    color: white;
