@@ -1,13 +1,25 @@
 {
-    "builds": [{
+    "version": 2,
+    "builds": [
+      {
         "src": "cupperhugo/wsgi.py",
-        "use": "@ardnt/vercel-python-wsgi",
-        "config": { "maxLambdaSize": "15mb","runtime" :"python3.11.5"}
-    }],
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.11.2" }
+      },
+      {
+        "src": "build_files.sh",
+        "use": "@vercel/static",
+        "config":{"disDir":"staticfiles_build"}
+      }
+    ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "cupperhugo/wsgi.py"
-        }
+      {
+        "src": "/staticfiles/(.*)",
+        "dest": "/staticfiles/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "cupperhuho/wsgi.py"
+      }
     ]
-}
+  }
