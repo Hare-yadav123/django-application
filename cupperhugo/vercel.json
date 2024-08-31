@@ -3,15 +3,9 @@
     "builds": [
       {
         "src": "cupperhugo/wsgi.py",
-        "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.11.2" }
-      },
-      {
-        "src": "build_files.sh",
-        "use": "@vercel/static",
-        "config":{"disDir":"staticfiles_build"}
-      }
-    ],
+        "use": "@ardnt/vercel-python-wsgi",
+        "config": { "maxLambdaSize": "15mb","runtime" :"python3.11.5"}
+    }],
     "routes": [
       {
         "src": "/staticfiles/(.*)",
