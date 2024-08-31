@@ -1,0 +1,191 @@
+/*---------------header----------- */
+.team{
+    text-align: center;
+    /* margin-top: 10%; */   
+}
+
+.team h3{
+    font-size: 50px
+
+}
+.team a{
+    text-decoration: none;
+    color: black;
+}
+.mid-head{
+    margin-top: 30px;
+}
+.mid-head h4{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 5px;
+}
+.mid-head p{
+    font-style: oblique;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* ---------------------mid-part--------------- */
+.our-mission{
+    width: 100%;
+    display: flex;
+    margin-top: 10%;
+    word-spacing: normal;
+}
+.ceo{
+    overflow: hidden;
+    width: 50%;
+    flex: 0 0 50%;
+    padding: 0 0 15px;
+    margin: 10px 10px;
+}
+
+.ceo-pic{
+    overflow: hidden;
+    width: 50%;
+    flex: 0 0 50%;
+    padding: 0 0 15px;
+    margin: 10px 10px;
+}
+
+.ceo-pic img{
+    border-radius: 5px;
+
+}
+
+.ceo p{
+    word-spacing: 5px;
+    line-height: 25px;
+}
+.ceo h4{
+    text-align: center;
+}
+.ceo ul li{
+    line-height: 30px;
+}
+/* ********************************************************** */
+
+.rev{
+    width: 100%;
+    display: flex;
+    margin-top: 10%;
+    word-spacing: normal;
+}
+.view{
+    overflow: hidden;
+    width: 25%;
+    flex: 0 0 25%;
+    padding: 0 0 -15px;
+    margin: 10px 10px;
+}
+
+.view{
+    overflow: hidden;
+    width: 25%;
+    flex: 0 0 25%;
+    padding: 0 0 -15px;
+    margin: 10px 10px;
+}
+
+
+/* -----------------------------------footer---------------------- */
+
+.futer{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    word-spacing: normal;
+    /* margin: 10px 10px; */
+    cursor: pointer;
+}
+.address{
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 5px;
+}
+.address p{
+    margin-top:10px;
+    text-align: center;
+    font-size: 35px;
+}
+.address a input{
+    margin-left: 45%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    background-color: #ff006a;
+    cursor: pointer;
+}
+.address a input:hover{
+    background-color:red;
+}
+
+.copper{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+
+}
+.copper h3{
+    margin-left: 5px;
+}
+.copper p{
+    margin-left: 5px;
+}
+.link{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+  
+.scl{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+}
+.scl a{
+    text-decoration: none;
+    color: black;
+}
+.scl a:hover{
+    text-decoration: underline;
+}
+.subc{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+    cursor: pointer;
+}
+
+
+.subc input{
+    margin-bottom: 0;
+    padding: 20px 50px;
+    text-align: center;
+}
+    
+.subc a i{
+   border: 1px solid red;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   padding: 7px 20px;
+   border-radius: 3px;
+   background-color: red;
+   color: white;
+}

@@ -1,0 +1,190 @@
+.con-row{
+    display: flex;
+    margin-top: 20px;
+    word-spacing: normal;
+    margin-left: 10px;
+    width: 100%;
+}
+.head{
+    overflow: hidden;
+    flex: 0 0 50%;
+    max-width: 50%;
+    /* padding: 0 -15px; */
+    box-sizing: border-box;
+}
+.head h3{
+    text-align: center;
+}
+.ct-detail h3{
+    margin-left: 20px;
+}
+.info{
+    margin-top: 20px;
+}
+.info ul li{
+    margin-top: 40px;
+    
+}
+.contact{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.contact h3{
+    font-size: 50px
+
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.disc{
+    margin-top: 30px;
+}
+.disc h4{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 10px;
+    font-size: 20px;
+}
+.disc p{
+    margin-top: 10px;
+   margin-left: 25%;
+   margin-right: 25%;
+    
+}
+
+.ct-form{
+    width: 100%;
+    padding: 52px;
+    margin: 10%;
+    box-sizing: border-box;
+    border: 1px solid #c0baba;
+    border-radius: 4px;
+    align-items: center;
+    
+}
+
+.ct-form:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px 0 #4CAF50;
+}
+.cnt-form form input{
+    align-items: center;
+    padding: 10px;
+}
+input:hover{
+    background-color: red;
+}
+
+.ct-detail{
+    overflow: hidden;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 -15px;
+    box-sizing: border-box;
+    /* margin-top: 5%; */
+}
+.info ul li{
+    margin-left: 50px;
+}
+/* ------------------footer----------------- */
+
+.futer{
+    margin-top:10%;
+    width: 100%;
+    display: flex;
+    word-spacing: normal;
+    /* margin: 10px 10px; */
+    cursor: pointer;
+}
+.address{
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 5px;
+}
+.address p{
+    margin-top:10px;
+    text-align: center;
+    font-size: 35px;
+}
+.address a input{
+    margin-left: 45%;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    background-color: #ff006a;
+    cursor: pointer;
+}
+.address a input:hover{
+    background-color:red;
+}
+
+.copper{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+
+}
+.copper h3{
+    margin-left: 5px;
+}
+.copper p{
+    margin-left: 5px;
+}
+.link{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+  
+.scl{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+}
+.scl a{
+    text-decoration: none;
+    color: black;
+}
+.scl a:hover{
+    text-decoration: underline;
+}
+.subc{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+    cursor: pointer;
+}
+
+
+.subc input{
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
+    
+.subc a i{
+   border: 1px solid red;
+   /* margin-top: 30px; */
+   margin-bottom: 30px;
+   padding: 10px 20px;
+   border-radius: 3px;
+   background-color: red;
+   color: white;
+}

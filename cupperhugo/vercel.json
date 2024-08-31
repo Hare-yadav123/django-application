@@ -1,0 +1,13 @@
+{
+    "builds": [{
+        "src": "cupperhugo/wsgi.py",
+        "use": "@ardnt/vercel-python-wsgi",
+        "config": { "maxLambdaSize": "15mb","runtime" :"python 3.11.5"}
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "cupperhugo/wsgi.py"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+.login{
+    text-align: center;
+}
+
+.login h3{
+    font-size: 50px
+}
+.login a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.login input{
+    padding: 10px;
+    width: 100px;
+    margin-left: 20px; 
+    background-color: red; 
+    border-radius: 5px;
+    color: white;
+}
+
+.login form{
+    width: 100%;
+}
+
+.form-control {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #c0baba;
+    border-radius: 4px;
+    align-items: center;
+}

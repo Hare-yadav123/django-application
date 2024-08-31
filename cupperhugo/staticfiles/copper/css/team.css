@@ -1,0 +1,187 @@
+
+/*---------------header----------- */
+.team{
+    text-align: center;
+    /* margin-top: 10%; */   
+}
+
+.team h3{
+    font-size: 50px
+
+}
+.team a{
+    text-decoration: none;
+    color: black;
+}
+.mid-head{
+    margin-top: 30px;
+}
+.mid-head h4{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+.mid-head p{
+    font-style: oblique;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* ----------button----------- */
+
+.button{
+    margin-top: 40px;
+    text-align: center;
+    
+    
+}
+.button input{
+    padding: 16px;
+    width: 150px;
+    border-radius: 5px;
+    
+}
+.button input :first-child{
+    background-color: red
+    
+}
+
+.button input:hover {
+    opacity: 0.8;
+    
+}
+/* ----------------image---------- */
+.pic-section{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    background-color: white;
+   
+}
+
+.pic1{
+    max-width: 35%;
+    padding: 0 0 -15px;
+    flex: 0 0 35%;
+    overflow: hidden;
+    text-align: center;
+
+}
+.picture{
+    background-color: white;
+
+}
+.pic1 .picture img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.pic2{
+    max-width: 35%;
+    padding: 0 0 -15px;
+    flex: 0 0 35%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pic2 .picture img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.pic2 .picture img:hover{
+    background-color: red;
+}
+
+.pic3{
+    max-width: 35%;
+    padding: 0 0 -15px;
+    flex: 0 0 35%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pic3 .picture img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+
+/*------------------- footer------------------- */
+.futoor{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    word-spacing: normal;
+    /* margin: 10px 10px; */
+    cursor: pointer;
+}
+.add{
+    background-color: white;
+
+}
+.add p{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 35px;
+}
+.add input{
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.add input:hover{
+    background-color: green;
+}
+
+.copper{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+
+}
+.link{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+}
+.link a{
+    text-decoration: none;
+}
+.scl{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+
+}
+.scl a{
+    text-decoration: none;
+}
+.subc{
+    overflow: hidden;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 -15px;
+    cursor: pointer;
+}
+
+
+.subc input{
+    margin-bottom: 5px;
+    padding: 8px;}
+    
+.subc a{
+    padding: 20px;
+    border: 1px sloid red;
+}
